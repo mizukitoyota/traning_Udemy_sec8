@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		86415486255FBEAD00AA82CE /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86415485255FBEAD00AA82CE /* NextViewController.swift */; };
 		86E40780255F768A0089CDEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E4077F255F768A0089CDEC /* AppDelegate.swift */; };
 		86E40782255F768A0089CDEC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E40781255F768A0089CDEC /* SceneDelegate.swift */; };
 		86E40784255F768A0089CDEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E40783255F768A0089CDEC /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		86415485255FBEAD00AA82CE /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
 		86E4077C255F768A0089CDEC /* screenTansition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = screenTansition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86E4077F255F768A0089CDEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		86E40781255F768A0089CDEC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				86E4077F255F768A0089CDEC /* AppDelegate.swift */,
 				86E40781255F768A0089CDEC /* SceneDelegate.swift */,
 				86E40783255F768A0089CDEC /* ViewController.swift */,
+				86415485255FBEAD00AA82CE /* NextViewController.swift */,
 				86E40785255F768A0089CDEC /* Main.storyboard */,
 				86E40788255F768C0089CDEC /* Assets.xcassets */,
 				86E4078A255F768C0089CDEC /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				86E40784255F768A0089CDEC /* ViewController.swift in Sources */,
+				86415486255FBEAD00AA82CE /* NextViewController.swift in Sources */,
 				86E40780255F768A0089CDEC /* AppDelegate.swift in Sources */,
 				86E40782255F768A0089CDEC /* SceneDelegate.swift in Sources */,
 			);
