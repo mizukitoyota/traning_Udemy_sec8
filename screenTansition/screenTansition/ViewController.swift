@@ -9,14 +9,37 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var label: UILabel!
+    
+    var count = 0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
-        
     }
-
-
+    
+    @IBAction func Action(_ sender: Any) {
+        count = count + 1
+        label.text = String(count)
+        if count == 10{
+            //count = 0
+            //プッシュとモーダル遷移ー
+            //ネクストの方NextViewController、IDをVCに、instantiateViewController-  ,as
+            let nextVC = storyboard?.instantiateViewController(withIdentifier: "next") as! NextViewController
+            nextVC.count2 = count
+           //pushViewController()
+            navigationController?.pushViewController(nextVC, animated: true)
+            //画面遷移,segue遷移
+//            performSegue(withIdentifier: "next", sender: nil)
+        }
+    }
+    //performSegueが呼ばれると呼ばれる,destination
+//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+//        let nextVC = segue.destination as! NextViewController
+//        print(count)
+//        //カウント渡し
+//        nextVC.count2 = count
+//    }
 }
 
