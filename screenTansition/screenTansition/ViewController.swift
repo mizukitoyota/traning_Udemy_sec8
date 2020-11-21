@@ -24,8 +24,8 @@ class ViewController: UIViewController {
         label.text = String(count)
         if count == 10{
             //count = 0
-            //プッシュとモーダル遷移ー
-            //ネクストの方NextViewController、IDをVCに、instantiateViewController-  ,as
+            //プッシュとモーダル遷移ープッシュはタスク進行　モーダルはタスク保管の分岐　帰ってくる
+            //ネクストの方NextViewController、IDをVCに、instantiateViewController-View Controllerをインスタンス化します  ,asー変数や定数の値をより具体的な型として扱う操作
             let nextVC = storyboard?.instantiateViewController(withIdentifier: "next") as! NextViewController
             nextVC.count2 = count
            //pushViewController()
